@@ -133,7 +133,7 @@ class AccountsServiceTest {
 		this.accountsService.createAccount(account2);
 		
 		/*
-		 * Created 2 accounts and doing 10 transaction from acc1 -> acc2 with amount 10
+		 * Created 2 accounts and doing 20 transaction from acc1 -> acc2 with amount 10
 		 * and another 10 transaction from acc2 -> acc1 with same amount 10 in parallel. So
 		 * at the end the balance of both the account remains unchanged
 		 */
