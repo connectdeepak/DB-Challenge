@@ -7,7 +7,8 @@ Suggestion to make it Prod ready -
 3. Publish Swagger spec for API's.
 4. Secure the endpoints , so that only authenticated request is processed.
 5. Error response should be  more consistent . Error response should follow a format.
-6. Add alerts on getting exception on critical functionality.
-7. Add more tests cases/ perform load testing on transactions mixing A→B and B→A transfers under high concurrency
-8. Create CI/CD pipeline having automated builds/tests.
-9. maintain audit logs of all the api's
+6. Harden input validation.
+7. Add alerts on getting exception on critical functionality.
+8. Add more tests cases/ perform load testing on transactions mixing A→B and B→A transfers under high concurrency
+9. Create CI/CD pipeline having automated builds/tests.
+10. maintain audit logs of all the api's
